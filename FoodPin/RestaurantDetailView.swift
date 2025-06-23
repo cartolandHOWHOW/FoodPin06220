@@ -88,5 +88,9 @@ struct RestaurantDetailView: View {
             image: "cafedeadend",
             isFavorite: true
         ))
+        .environment(\.dynamicTypeSize, .xxxLarge)
+        
     }
+    .tint(.white)
+    
 }
