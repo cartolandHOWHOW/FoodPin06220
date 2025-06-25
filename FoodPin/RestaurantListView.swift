@@ -62,7 +62,7 @@ struct RestaurantListView: View {
             }
             .listStyle(.plain)
             
-            .navigationTitle("FoodPin")//MARK: 導覽列
+            .navigationTitle("FoodPanda")//MARK: 導覽列
             .navigationBarTitleDisplayMode(.inline)
         }
         .tint(.cyan)
